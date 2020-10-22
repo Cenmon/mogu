@@ -1,5 +1,7 @@
 package com.cenmo.mogu.service;
 
+import com.cenmo.mogu.common.vo.EUDataGridResult;
+import com.cenmo.mogu.common.vo.MoguResult;
 import com.cenmo.mogu.pojo.Order;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,4 +15,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface OrderService extends IService<Order> {
 
+    EUDataGridResult getOrderList(int page, int rows);
+
+    MoguResult deleteOrders(long[] orderIds);
 }

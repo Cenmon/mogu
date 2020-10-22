@@ -1,5 +1,7 @@
 package com.cenmo.mogu.service;
 
+import com.cenmo.mogu.common.vo.EUDataGridResult;
+import com.cenmo.mogu.common.vo.MoguResult;
 import com.cenmo.mogu.pojo.ItemParam;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,4 +15,12 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ItemParamService extends IService<ItemParam> {
 
+    // 通过商品id获取规格参数的html代码
+    String getItemParamHTMLByItemId(long itemId);
+
+    MoguResult getItemParamByCid(long cid);
+
+    ItemParam getItemParamById(long id);
+
+    MoguResult insertItemParam(ItemParam itemParam);
 }

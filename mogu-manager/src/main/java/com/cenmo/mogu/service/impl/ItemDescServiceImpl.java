@@ -1,9 +1,12 @@
 package com.cenmo.mogu.service.impl;
 
+import com.cenmo.mogu.common.constant.ResultEnum;
+import com.cenmo.mogu.common.vo.MoguResult;
 import com.cenmo.mogu.pojo.ItemDesc;
 import com.cenmo.mogu.mapper.ItemDescMapper;
-import com.cenmo.mogu.service.ItemDescService;
+import com.cenmo.mogu.service.ItemCatService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.cenmo.mogu.service.ItemDescService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +19,19 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ItemDescServiceImpl extends ServiceImpl<ItemDescMapper, ItemDesc> implements ItemDescService {
+
+    @Override
+    public ItemDesc getItemDescById(long id) {
+        return baseMapper.selectById(id);
+    }
+
+    @Override
+    public MoguResult insertItemDesc(ItemDesc itemDesc) {
+        int insert = baseMapper.insert(itemDesc);
+        if ( insert == 1){
+            return MoguResult.ok();
+        }
+        return MoguResult.error(ResultEnum.BAD_SQL_GRAMMAR);
+    }
 
 }

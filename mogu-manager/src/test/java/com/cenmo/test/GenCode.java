@@ -39,7 +39,7 @@ public class GenCode {
 
         // 3、数据源配置+ moduleName
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/taotao" + "?useUnicode=true&useSSL=false&characterEncoding=utf-8&serverTimezone=UTC");
+        dsc.setUrl("jdbc:mysql://localhost:3306/mogu" + "?useUnicode=true&useSSL=false&characterEncoding=utf-8&serverTimezone=UTC");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");

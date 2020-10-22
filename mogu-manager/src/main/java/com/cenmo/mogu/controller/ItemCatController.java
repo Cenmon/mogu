@@ -1,9 +1,12 @@
 package com.cenmo.mogu.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.cenmo.mogu.common.vo.EUTreeNode;
+import com.cenmo.mogu.service.ItemCatService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RestController;
+import java.util.List;
 
 /**
  * <p>
@@ -17,5 +20,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/item-cat")
 public class ItemCatController {
 
+    @Autowired
+    private ItemCatService itemCatService;
+
+    @GetMapping("/list")
+    public List<EUTreeNode> getCatChildTreeList(@RequestParam(value = "id",defaultValue = "0")long parentId){
+        // 此方法的访问修饰符为public
+//		System.out.println(parentId);
+        List<EUTreeNode> list = itemCatService.getItemCatList(parentId);
+//		for(EUTreeNode node : list) {
+//			System.out.println(node.getState());
+//		}
+        return list;
+//		return itemCatService.getItemCatList(parentId);
+    }
 }
 

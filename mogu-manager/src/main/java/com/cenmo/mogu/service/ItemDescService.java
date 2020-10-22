@@ -1,7 +1,8 @@
 package com.cenmo.mogu.service;
 
-import com.cenmo.mogu.pojo.ItemDesc;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.cenmo.mogu.common.vo.MoguResult;
+import com.cenmo.mogu.pojo.ItemDesc;
 
 /**
  * <p>
@@ -12,5 +13,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2020-10-09
  */
 public interface ItemDescService extends IService<ItemDesc> {
+    ItemDesc getItemDescById(long id);
 
+    MoguResult insertItemDesc(ItemDesc itemDesc);
 }
