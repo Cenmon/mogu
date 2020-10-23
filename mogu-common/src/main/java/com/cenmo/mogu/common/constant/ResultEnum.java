@@ -11,7 +11,9 @@ public enum ResultEnum {
     JSON_PARSE_ERROR(false,503,"json解析异常"),
     PARAM_ERROR(false,504,"参数错误"),
     FILE_UPLOAD_ERROR(false,505,"文件上传错误"),
-    EXCEL_DATA_IMPORT_ERROR(false,506,"Excel数据导入错误");
+    EXCEL_DATA_IMPORT_ERROR(false,506,"Excel数据导入错误"),
+    VERIFIED_ERROR(false,507,"校验错误"),
+    SQL_OPERATION_ERROR(false,508,"数据库操作失败");
 
     private Boolean success;
     private Integer status;

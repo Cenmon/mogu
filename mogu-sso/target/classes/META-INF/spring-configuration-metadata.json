@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "mogu.redis.jedispool",
+      "type": "com.cenmo.mogu.sso.config.JedisConfig",
+      "sourceType": "com.cenmo.mogu.sso.config.JedisConfig"
+    },
+    {
+      "name": "mogu.sso.redis.user",
+      "type": "com.cenmo.mogu.sso.service.impl.UserServiceImpl",
+      "sourceType": "com.cenmo.mogu.sso.service.impl.UserServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mogu.redis.jedispool.host",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.sso.config.JedisConfig"
+    },
+    {
+      "name": "mogu.redis.jedispool.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cenmo.mogu.sso.config.JedisConfig"
+    },
+    {
+      "name": "mogu.sso.redis.user.base-mapper",
+      "type": "com.cenmo.mogu.mapper.UserMapper",
+      "sourceType": "com.cenmo.mogu.sso.service.impl.UserServiceImpl"
+    },
+    {
+      "name": "mogu.sso.redis.user.expire-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cenmo.mogu.sso.service.impl.UserServiceImpl"
+    },
+    {
+      "name": "mogu.sso.redis.user.jedis-client",
+      "type": "com.cenmo.mogu.sso.dao.JedisClient",
+      "sourceType": "com.cenmo.mogu.sso.service.impl.UserServiceImpl"
+    },
+    {
+      "name": "mogu.sso.redis.user.session-key",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.sso.service.impl.UserServiceImpl"
+    }
+  ],
+  "hints": []
+}

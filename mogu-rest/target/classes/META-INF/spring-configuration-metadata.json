@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mogu.redis.jedispool",
+      "type": "com.cenmo.mogu.rest.config.JedisConfig",
+      "sourceType": "com.cenmo.mogu.rest.config.JedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mogu.redis.jedispool.host",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.rest.config.JedisConfig"
+    },
+    {
+      "name": "mogu.redis.jedispool.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cenmo.mogu.rest.config.JedisConfig"
+    }
+  ],
+  "hints": []
+}

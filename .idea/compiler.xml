@@ -7,18 +7,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mogu-dao" />
+        <module name="mogu-portal" />
         <module name="mogu-manager" />
+        <module name="mogu-search" />
+        <module name="mogu-dao" />
+        <module name="mogu-order" />
+        <module name="mogu-sso" />
+        <module name="mogu-rest" />
         <module name="mogu-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mogu" target="1.8" />
+      <module name="mogu-common" target="1.8" />
+      <module name="mogu-dao" target="1.8" />
+      <module name="mogu-manager" target="1.8" />
+      <module name="mogu-order" target="1.8" />
+      <module name="mogu-portal" target="1.8" />
+      <module name="mogu-rest" target="1.8" />
+      <module name="mogu-search" target="1.8" />
+      <module name="mogu-sso" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mogu-common" options="-parameters" />
       <module name="mogu-dao" options="-parameters" />
       <module name="mogu-manager" options="-parameters" />
-      <module name="mogu-parent" options="-parameters" />
+      <module name="mogu-order" options="-parameters" />
+      <module name="mogu-portal" options="-parameters" />
+      <module name="mogu-rest" options="-parameters" />
+      <module name="mogu-search" options="-parameters" />
+      <module name="mogu-sso" options="-parameters" />
     </option>
   </component>
 </project>

@@ -7,6 +7,11 @@
         <module>mogu-common</module>
         <module>mogu-dao</module>
         <module>mogu-manager</module>
+        <module>mogu-portal</module>
+        <module>mogu-rest</module>
+        <module>mogu-order</module>
+        <module>mogu-search</module>
+        <module>mogu-sso</module>
     </modules>
 
     <parent>
@@ -45,12 +50,19 @@
         <mysql-version>8.0.21</mysql-version>
 
         <javax.servlet.jsp-api.version>2.3.3</javax.servlet.jsp-api.version>
-        <mybatis-plus.version>3.0.5</mybatis-plus.version>
+        <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <druid.version>1.0.9</druid.version>
+        <solr8.version>8.5.1</solr8.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.apache.solr</groupId>
+                <artifactId>solr-solrj</artifactId>
+                <version>${solr8.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
@@ -64,9 +76,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.mybatis</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${mybatis.version}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
 
             <!--mybatis-plus 持久层-->

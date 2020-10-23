@@ -62,6 +62,7 @@ public class User implements Serializable {
      * 逻辑删除
      */
     @TableLogic
+    @TableField("is_deleted")
     private Boolean deleted;
 
     @TableField(fill = FieldFill.INSERT)

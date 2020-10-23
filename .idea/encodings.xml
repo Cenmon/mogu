@@ -4,6 +4,11 @@
     <file url="file://$PROJECT_DIR$/mogu-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mogu-dao/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mogu-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu-portal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu-sso/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

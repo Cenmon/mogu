@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "mogu.order",
+      "type": "com.cenmo.mogu.order.service.impl.OrderServiceImpl",
+      "sourceType": "com.cenmo.mogu.order.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.redis.jedispool",
+      "type": "com.cenmo.mogu.order.config.JedisConfig",
+      "sourceType": "com.cenmo.mogu.order.config.JedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mogu.order.detail-id-incr-key",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.order.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.order.init-order-id",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.order.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.order.order-id-incr-key",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.order.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.redis.jedispool.host",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.order.config.JedisConfig"
+    },
+    {
+      "name": "mogu.redis.jedispool.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cenmo.mogu.order.config.JedisConfig"
+    }
+  ],
+  "hints": []
+}

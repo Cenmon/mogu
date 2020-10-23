@@ -1,11 +1,8 @@
 package com.cenmo.mogu.pojo;
 
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -123,6 +120,7 @@ public class Order implements Serializable {
      * 逻辑删除
      */
     @TableLogic
+    @TableField("is_deleted")
     private Boolean deleted;
 
 

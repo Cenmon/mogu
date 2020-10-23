@@ -1,0 +1,97 @@
+{
+  "groups": [
+    {
+      "name": "mogu.order",
+      "type": "com.cenmo.mogu.portal.service.impl.OrderServiceImpl",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.rest.adv",
+      "type": "com.cenmo.mogu.portal.service.impl.WebAdvServiceImpl",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.WebAdvServiceImpl"
+    },
+    {
+      "name": "mogu.rest.item",
+      "type": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl"
+    },
+    {
+      "name": "mogu.search",
+      "type": "com.cenmo.mogu.portal.service.impl.SearchSerciceImpl",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.SearchSerciceImpl"
+    },
+    {
+      "name": "mogu.sso",
+      "type": "com.cenmo.mogu.portal.service.impl.LoginServiceImpl",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.LoginServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mogu.order.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.order.create-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.OrderServiceImpl"
+    },
+    {
+      "name": "mogu.rest.adv.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.WebAdvServiceImpl"
+    },
+    {
+      "name": "mogu.rest.adv.index-adv-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.WebAdvServiceImpl"
+    },
+    {
+      "name": "mogu.rest.adv.small-adv-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.WebAdvServiceImpl"
+    },
+    {
+      "name": "mogu.rest.item.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl"
+    },
+    {
+      "name": "mogu.rest.item.item-desc-info-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl"
+    },
+    {
+      "name": "mogu.rest.item.item-info-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl"
+    },
+    {
+      "name": "mogu.rest.item.item-param-info-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.ItemServiceImpl"
+    },
+    {
+      "name": "mogu.search.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.SearchSerciceImpl"
+    },
+    {
+      "name": "mogu.sso.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.LoginServiceImpl"
+    },
+    {
+      "name": "mogu.sso.login-page-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.LoginServiceImpl"
+    },
+    {
+      "name": "mogu.sso.usr-token-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cenmo.mogu.portal.service.impl.LoginServiceImpl"
+    }
+  ],
+  "hints": []
+}

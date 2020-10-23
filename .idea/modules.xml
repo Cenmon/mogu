@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mogu.iml" filepath="$PROJECT_DIR$/.idea/mogu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-common/mogu-common.iml" filepath="$PROJECT_DIR$/mogu-common/mogu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-dao/mogu-dao.iml" filepath="$PROJECT_DIR$/mogu-dao/mogu-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-manager/mogu-manager.iml" filepath="$PROJECT_DIR$/mogu-manager/mogu-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-order/mogu-order.iml" filepath="$PROJECT_DIR$/mogu-order/mogu-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-portal/mogu-portal.iml" filepath="$PROJECT_DIR$/mogu-portal/mogu-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-rest/mogu-rest.iml" filepath="$PROJECT_DIR$/mogu-rest/mogu-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-search/mogu-search.iml" filepath="$PROJECT_DIR$/mogu-search/mogu-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu-sso/mogu-sso.iml" filepath="$PROJECT_DIR$/mogu-sso/mogu-sso.iml" />
+    </modules>
+  </component>
+</project>

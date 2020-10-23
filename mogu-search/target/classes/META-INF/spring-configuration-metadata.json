@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "mogu.search.solr",
+      "type": "com.cenmo.mogu.search.config.solrConfig",
+      "sourceType": "com.cenmo.mogu.search.config.solrConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mogu.search.solr.base-solr-url",
+      "type": "java.lang.String",
+      "description": "<bean id=\"httpSolrClientBuilder\" class=\"org.apache.solr.client.solrj.impl.HttpSolrClient.Builder\"> \t\t<constructor-arg name=\"baseSolrUrl\" value=\"${SOLR.SERVER.URL}\"><\/constructor-arg> \t<\/bean> \t<bean id=\"httpSolrClient\" factory-bean=\"httpSolrClientBuilder\" factory-method=\"build\"><\/bean>",
+      "sourceType": "com.cenmo.mogu.search.config.solrConfig"
+    }
+  ],
+  "hints": []
+}

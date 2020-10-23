@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f11628e-1fa9-4ca3-821a-22d8b19938c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mogu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu-portal/mogu-portal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/mogu-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/mogu-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/src/main/java/com/cenmo/mogu/common/constant/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/src/main/java/com/cenmo/mogu/common/constant/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/constant/ResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/constant/ResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/CookieUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/CookieUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/ExceptionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/ExceptionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/FtpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/FtpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/HttpUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/HttpUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-common/target/classes/com/cenmo/mogu/common/utils/HttpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/mogu-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/mogu-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemDesc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemParamModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/ItemParamModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/OrderShipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/OrderShipping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/src/main/java/com/cenmo/mogu/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/META-INF/mogu-dao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Adv.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Adv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/AdvCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/AdvCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemParamModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/ItemParamModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/OrderShipping.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/OrderShipping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-dao/target/classes/com/cenmo/mogu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/mogu-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/mogu-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/FtpProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/FtpProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/GlobalExceptionDisposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/GlobalExceptionDisposer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/JedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/JedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/mvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/mvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/config/mybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/config/mybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/AdvCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/AdvCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/AdvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/AdvController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/ItemDescController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/ItemDescController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/ItemParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/ItemParamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/ItemParamModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/ItemParamModelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/OrderItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/OrderItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/OrderShippingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/OrderShippingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/UpPicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/UpPicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/dao/JedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/dao/JedisClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/dao/JedisClientImplCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/dao/JedisClientImplCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/dao/JedisClientImplSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/dao/JedisClientImplSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/AdvCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/AdvCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/AdvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/AdvService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/ItemCatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/ItemDescService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/ItemDescService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/ItemParamModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/ItemParamModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/ItemParamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/ItemParamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/OrderItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/OrderShippingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/OrderShippingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/UpPicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/UpPicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/AdvCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/AdvCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/AdvServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/AdvServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/ItemCatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/ItemDescServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/ItemDescServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/ItemParamModelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/ItemParamModelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/ItemParamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/ItemParamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/OrderShippingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/OrderShippingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/UpPicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/UpPicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/java/com/cenmo/mogu/manager/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/src/test/java/com/cenmo/test/GenCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/META-INF/mogu-manager.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/ManagerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/FtpProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/GlobalExceptionDisposer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/JedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/Swagger2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/mvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/config/mybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/AdvCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/AdvController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/ItemCatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/ItemDescController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/ItemParamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/ItemParamModelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/OrderItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/OrderShippingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/UpPicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/dao/JedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/dao/JedisClientImplCluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/dao/JedisClientImplSingle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/AdvCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/AdvService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/ItemCatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/ItemDescService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/ItemParamModelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/ItemParamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/OrderItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/OrderShippingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/UpPicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/AdvCategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/AdvServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemCatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemDescServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemParamModelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemParamServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemParamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/OrderItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/OrderShippingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/UpPicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/com/cenmo/mogu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/classes/templates/test/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/test-classes/com/cenmo/test/GenCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu-manager/target/test-classes/com/cenmo/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mogu-manager/target/test-classes/com/cenmo/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\.m2\repository" />
+        <option name="userSettingsFile" value="E:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="1jEFlqBEv4MBN1YIBCorEiadYO3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mogu-portal/src/main/java/com/cenmo/mogu/portal" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\mogu\mogu-portal\src\main\java\com\cenmo\mogu\portal" />
+      <recent name="D:\Code\mogu\mogu-portal\src\main\resources\com\cenmo\mogu\portal" />
+      <recent name="D:\Code\mogu\mogu-search\src\main\resources\com\cenmo\mogu\search\mapper" />
+      <recent name="D:\Code\mogu\mogu-search\src\main\resources" />
+      <recent name="D:\Code\mogu\mogu-search\src\test\java\com\cenmo\mogu\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cenmo.mogu.order.config" />
+      <recent name="com.cenmo.mogu.rest.config" />
+      <recent name="com.cenmo.mogu.sso.config" />
+      <recent name="com.cenmo.mogu.portal.config" />
+      <recent name="com.cenmo.mogu.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\mogu\mogu-search\src\main\resources\com\cenmo\mogu\search\mapper\xml" />
+      <recent name="D:\Code\mogu\mogu-search\src\main\java\com\cenmo\mogu\search\mapper" />
+      <recent name="D:\Code\mogu\mogu-sso\src\main\resources\template" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProtalApplication">
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mogu-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cenmo.mogu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cenmo.mogu.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mogu-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cenmo.mogu.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cenmo.mogu.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mogu-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cenmo.mogu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cenmo.mogu.ProtalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mogu-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cenmo.mogu.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cenmo.mogu.rest.RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mogu-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cenmo.mogu.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cenmo.mogu.sso.SSOApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProtalApplication" />
+        <item itemvalue="Spring Boot.SSOApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.RestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f11628e-1fa9-4ca3-821a-22d8b19938c1" name="Default Changelist" comment="" />
+      <created>1603361497868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603361497868</updated>
+      <workItem from="1603361505367" duration="14000" />
+      <workItem from="1603361528412" duration="1303000" />
+      <workItem from="1603365550085" duration="29602000" />
+      <workItem from="1603450649824" duration="15480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1603461903993">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603461903993" />
+    <state x="449" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603451388990">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="449" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1603451388990" />
+    <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603371133671">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1603371133671" />
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.1.bottom" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.1.center" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.1.left" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="165" key="GridCell.Tab.1.right" timestamp="1603467803303">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="165" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603467803303" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1603437250226">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603437250226" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1603437250226">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1603437250226" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1603437250226">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1603437250226" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1603437250226">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1603437250226" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1603463856447">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1603463856447" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1603459733296">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603459733296" />
+    <state x="41" y="2" key="new project wizard" timestamp="1603376080864">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="41" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1603376080864" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603380708209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603380708209" />
+  </component>
+</project>

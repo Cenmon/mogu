@@ -2,18 +2,18 @@
   "groups": [
     {
       "name": "mogu.ftp",
-      "type": "com.cenmo.mogu.service.impl.UpPicServiceImpl",
-      "sourceType": "com.cenmo.mogu.service.impl.UpPicServiceImpl"
+      "type": "com.cenmo.mogu.manager.service.impl.UpPicServiceImpl",
+      "sourceType": "com.cenmo.mogu.manager.service.impl.UpPicServiceImpl"
     },
     {
       "name": "mogu.redis.admin",
-      "type": "com.cenmo.mogu.service.impl.AdminServiceImpl",
-      "sourceType": "com.cenmo.mogu.service.impl.AdminServiceImpl"
+      "type": "com.cenmo.mogu.manager.service.impl.AdminServiceImpl",
+      "sourceType": "com.cenmo.mogu.manager.service.impl.AdminServiceImpl"
     },
     {
       "name": "mogu.redis.jedispool",
       "type": "redis.clients.jedis.JedisPool",
-      "sourceType": "com.cenmo.mogu.config.JedisConfig",
+      "sourceType": "com.cenmo.mogu.manager.config.JedisConfig",
       "sourceMethod": "JedisPoolDI()"
     }
   ],
