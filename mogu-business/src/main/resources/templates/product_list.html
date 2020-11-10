@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>蘑菇 | 商品管理</title>
+
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/font-awesome/css/font-awesome.css}" rel="stylesheet">
+
+    <!-- FooTable -->
+    <link th:href="@{/css/plugins/footable/footable.core.css}" rel="stylesheet">
+
+    <link th:href="@{/css/animate.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!--        左侧导航栏-->
+        <div th:replace="~{commons/sidebar::sidebar('product_list')}"></div>
+
+        <div id="page-wrapper" class="gray-bg">
+            <!--            顶部导航栏-->
+            <div th:replace="~{commons/navbar}"></div>
+
+        <div class="row border-bottom">
+        
+        </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>商品列表</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>商品管理</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <strong>商品列表</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+
+        <div class="wrapper wrapper-content animated fadeInRight ecommerce">
+
+
+            <div class="ibox-content m-b-sm border-bottom">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="product_name">商品名称</label>
+                            <input type="text" id="product_name" name="product_name" value="" placeholder="商品名称" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <label class="col-form-label" for="price">商品价格</label>
+                            <input type="text" id="price" name="price" value="" placeholder="商品价格" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <label class="col-form-label" for="quantity">商品数量</label>
+                            <input type="text" id="quantity" name="quantity" value="" placeholder="商品数量" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="status">商品状态 </label>
+                            <select name="status" id="status" class="form-control">
+                                <option value="1" selected>正常</option>
+                                <option value="2">下架</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox">
+                        <div class="ibox-content">
+
+                            <table class="footable table table-stripped toggle-arrow-tiny" data-page-size="10">
+                                <thead>
+                                <tr>
+
+                                    <th data-toggle="true">名称</th>
+<!--                                    <th data-hide="phone">Model</th>-->
+<!--                                    <th data-hide="all">Description</th>-->
+                                    <th data-hide="phone">价格</th>
+                                    <th data-hide="phone,tablet" >数量</th>
+                                    <th data-hide="phone">状态</th>
+                                    <th class="text-right" data-sort-ignore="true">操作</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each="item : ${items}" >
+                                    <td th:text="${item.title}"></td>
+<!--                                    <td th:text="${item.buyerNick}"></td>-->
+                                    <td>￥[[ ${item.price} ]]</td>
+                                    <td th:text="${item.num}"></td>
+
+<!--                                    <td th:text="${#dates.format(item.createTime,'yyyy/MM/dd HH:mm')}"></td>-->
+<!--                                    <td th:text="${#dates.format(item.updateTime,'yyyy/MM/dd HH:mm')}"></td>-->
+                                    <td th:switch="${item.status}">
+                                        <span class="label label-primary" th:case="1">正常</span>
+                                        <span class="label label-warning" th:case="2">下架</span>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="btn-group">
+                                            <a class="btn-white btn btn-xs" th:href="${'/item/view/'+item.id}">查看</a>
+                                            <a class="btn-white btn btn-xs" th:href="${'/item/edit/'+item.id}">编辑</a>
+                                            <a class="btn-white btn btn-xs" th:href="${'/item/delete/'+item.id}">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="6">
+                                        <ul class="pagination float-right"></ul>
+                                    </td>
+                                </tr>
+                                </tfoot>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+            <!--            页脚-->
+            <div th:replace="~{commons/footer}"></div>
+
+        </div>
+        </div>
+
+
+
+    <!-- Mainly scripts -->
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/plugins/metisMenu/jquery.metisMenu.js}"></script>
+    <script th:src="@{/js/plugins/slimscroll/jquery.slimscroll.min.js}"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script th:src="@{/js/inspinia.js}"></script>
+    <script th:src="@{/js/plugins/pace/pace.min.js}"></script>
+
+    <!-- FooTable -->
+    <script th:src="@{/js/plugins/footable/footable.all.min.js}"></script>
+
+    <!-- Page-Level Scripts -->
+    <script>
+        $(document).ready(function() {
+
+            $('.footable').footable();
+
+        });
+
+    </script>
+
+</body>
+
+</html>

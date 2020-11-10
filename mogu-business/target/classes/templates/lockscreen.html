@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>商家后台</title>
+
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/font-awesome/css/font-awesome.css}" rel="stylesheet">
+
+    <link th:href="@{/css/animate.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}}" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+<div class="lock-word animated fadeInDown">
+    <span class="first-word">LOCKED</span><span>SCREEN</span>
+</div>
+    <div class="middle-box text-center lockscreen animated fadeInDown">
+        <div>
+            <div class="m-b-md">
+            <img alt="image" class="rounded-circle circle-border" src="https://s3.amazonaws.com/uifaces/faces/twitter/ok/128.jpg">
+            </div>
+            <h3>用户名</h3>
+            <form class="m-t" role="form" action="index.html">
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="******" required="">
+                </div>
+                <button type="submit" class="btn btn-primary block full-width">解锁</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+    <script th:src="@{/js/popper.min.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+
+</body>
+
+</html>

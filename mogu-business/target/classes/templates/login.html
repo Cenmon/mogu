@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>商家登陆</title>
+
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/font-awesome/css/font-awesome.css}" rel="stylesheet">
+
+    <link th:href="@{/css/animate.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">MG</h1>
+
+            </div>
+            <h3>欢迎来到蘑菇商城商家后台管理系统</h3>
+            <p>蘑菇商城致力于打造和谐的商家和平台，消费者和生成者关系.
+                <!--Continually expanded and constantly improved Inspinia Admin Them (IN+)-->
+            </p>
+            <form class="m-t" role="form" id="formlogin" method="post" action="/business/login">
+                <div class="form-group">
+                    <input id="loginname" type="username" class="form-control" placeholder="店主名" required="">
+                </div>
+                <div class="form-group">
+                    <input id="nloginpwd" type="password" class="form-control" placeholder="密码" required="">
+                </div>
+                <button id="loginsubmit" type="submit" class="btn btn-primary block full-width m-b">登陆</button>
+
+                <a href="#"><small>忘记密码</small></a>
+                <p class="text-muted text-center"><!-- <small>忘记账号</small> --></p>
+                <a class="btn btn-sm btn-white btn-block" href="register.html">注册成为商家</a>
+            </form>
+            <p class="m-t"> <small>最终版权归蘑菇商城所有 &copy; 2020</small> </p>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+    <script th:src="@{/js/popper.min.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+
+    <script type="text/javascript">
+        var redirectUrl = "${redirect}";
+        var LOGIN = {
+            checkInput:function() {
+                if ($("#loginname").val() == "") {
+                    alert("用户名不能为空");
+                    $("#loginname").focus();
+                    return false;
+                }
+                if ($("#nloginpwd").val() == "") {
+                    alert("密码不能为空");
+                    $("#nloginpwd").focus();
+                    return false;
+                }
+                return true;
+            },
+            doLogin:function() {
+                // alert($("#formlogin").serialize());
+                $.post("/business/login", $("#formlogin").serialize(),function(data){
+                    if (data.success) {
+                        alert("登录成功！");
+                        if (redirectUrl == "") {
+                            //登录成功，重定向到商家后台页面
+                            location.href = "http://localhost:8087";
+                        } else {
+                            location.href = redirectUrl;
+                        }
+                    } else {
+                        alert("登录失败，原因是：" + data.msg);
+                        $("#loginname").select();
+                    }
+                });
+            },
+            login:function() {
+                // if (this.checkInput()) {
+                // }
+                this.doLogin();
+            }
+
+        };
+        $(function(){
+            $("#loginsubmit").click(function(){
+                // LOGIN.login();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

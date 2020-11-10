@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>蘑菇 | 订单</title>
+
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/font-awesome/css/font-awesome.css}" rel="stylesheet">
+
+    <!-- FooTable -->
+    <link th:href="@{/css/plugins/footable/footable.core.css}" rel="stylesheet">
+
+    <link th:href="@{/css/animate.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+
+    <link th:href="@{/css/plugins/datapicker/datepicker3.css}" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+<!--        左侧导航栏-->
+        <div th:replace="~{commons/sidebar::sidebar('orders')}"></div>
+
+        <div id="page-wrapper" class="gray-bg">
+
+<!--            顶部导航栏-->
+            <div th:replace="~{commons/navbar}"></div>
+
+        <div class="row border-bottom">
+
+        </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>订单</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>E-commerce</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <strong>订单</strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        <div class="wrapper wrapper-content animated fadeInRight ecommerce">
+
+
+            <div class="ibox-content m-b-sm border-bottom">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="order_id">订单编号</label>
+                            <input type="text" id="order_id" name="order_id" value="" placeholder="Order ID" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="status">订单状态</label>
+                            <select name="status" id="status" class="form-control">
+                                <option value="1">未付款</option>
+                                <option value="2">已付款</option>
+                                <option value="3" selected>未发货</option>
+                                <option value="4">已发货</option>
+                                <option value="5">交易成功</option>
+                                <option value="6">交易关闭</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="customer">消费者</label>
+                            <input type="text" id="customer" name="customer" value="" placeholder="Customer" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="date_added">添加事件</label>
+                            <div class="input-group date">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="date_modified">修改时间</label>
+                            <div class="input-group date">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" type="text" class="form-control" value="03/06/2014">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="col-form-label" for="amount">价格</label>
+                            <input type="text" id="amount" name="amount" value="" placeholder="Amount" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox">
+                        <div class="ibox-content">
+
+<!--                            footable表插件-->
+                            <table class="footable table table-stripped toggle-arrow-tiny" data-page-size="10" data-paging="true">
+                                <thead>
+                                <tr>
+                                    <th>编号</th>
+                                    <th data-hide="phone">消费者</th>
+                                    <th data-hide="phone">付款</th>
+                                    <th data-hide="phone">添加时间</th>
+                                    <th data-hide="phone" >修改时间</th>
+                                    <th data-hide="phone">状态</th>
+                                    <th class="text-right">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr th:each="order : ${orders}" >
+                                    <td th:text="${order.orderId}"></td>
+                                    <td th:text="${order.buyerNick}"></td>
+                                    <td>￥[[ ${order.payment} ]]</td>
+                                    <td th:text="${#dates.format(order.createTime,'yyyy/MM/dd HH:mm')}"></td>
+                                    <td th:text="${#dates.format(order.updateTime,'yyyy/MM/dd HH:mm')}"></td>
+                                    <td th:switch="${order.status}">
+                                        <span class="label" th:case="1">未付款</span>
+                                        <span class="label label-danger" th:case="2">已付款</span>
+                                        <span class="label label-info" th:case="3">未发货</span>
+                                        <span class="label label-success" th:case="4">已发货</span>
+                                        <span class="label label-primary" th:case="5">成功</span>
+                                        <span class="label label-warning" th:case="6">关闭</span>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="btn-group">
+                                            <a class="btn-white btn btn-xs" th:href="${'/order/view/'+order.orderId}">查看</a>
+                                            <a class="btn-white btn btn-xs" th:href="${'/order/edit/'+order.orderId}">编辑</a>
+                                            <a class="btn-white btn btn-xs" th:href="${'/order/delete/'+order.orderId}">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="7">
+                                            <ul class="pagination float-right"></ul>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+<!--            页脚-->
+        <div th:replace="~{commons/footer}"></div>
+
+        </div>
+        </div>
+
+
+
+    <!-- Mainly scripts -->
+    <script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+    <script th:src="@{/js/popper.min.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/plugins/metisMenu/jquery.metisMenu.js}"></script>
+    <script th:src="@{/js/plugins/slimscroll/jquery.slimscroll.min.js}"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script th:src="@{/js/inspinia.js}"></script>
+    <script th:src="@{/js/plugins/pace/pace.min.js}"></script>
+
+    <!-- Data picker -->
+    <script th:src="@{/js/plugins/datapicker/bootstrap-datepicker.js}"></script>
+
+    <!-- FooTable -->
+    <script th:src="@{/js/plugins/footable/footable.all.min.js}"></script>
+
+
+
+    <!-- Page-Level Scripts -->
+    <script>
+        jQuery(function($){
+
+            $('.footable').footable();
+            
+
+            $('#date_added').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true
+            });
+
+            $('#date_modified').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
